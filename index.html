@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Understanding The Box Model</title>
+        <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Understanding The Box Model</h1>
+        </header>
+        <div class="container">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="3">
+                            <h1 class="box">The Box Model</h1>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <h2>Tag</h2>
+                        </th>
+                        <th>
+                            <h2>Name</h2>
+                        </th>
+                        <th>
+                            <h2>Description</h2>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td class="left">
+                            <h3 class="tag">width:</h3>
+                        </td>
+                        <td>
+                            <h3>width</h3>
+                        </td>
+                        <td>
+                            <h3 class="description">The width of the container area.</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="left">
+                            <h3 class="tag">height:</h3>
+                        </td>
+                        <td>
+                            <h3>height</h3>
+                        </td>
+                        <td>
+                            <h3 class="description">The width of the container area.</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="left">
+                            <h3 class="tag">paddding:</h3>
+                        </td>
+                        <td>
+                            <h3>padding</h3>
+                        </td>
+                        <td>
+                            <h3 class="description">The amount of space between the content area and the border.</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="left">
+                            <h3 class="tag">border:</h3>
+                        </td>
+                        <td>
+                            <h3>border</h3>
+                        </td>
+                        <td>
+                            <h3 class="description">The thickness and style of the border surrounding the content area and padding.</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="left">
+                            <h3 class="tag">margin:</h3>
+                        </td>
+                        <td>
+                            <h3>margin</h3>
+                        </td>
+                        <td>
+                            <h3 class="description">The amount of space between the border and outside edge of the element.</h3>
+                        </td>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        <div class="model">
+            <h1 class="boxmodel">BOX MODEL</h1>
+
+                <p>The Box Model is a CSS layout mechanism that the web browser uses to render content organized by box-shaped elements.
+                    element is made of four specific areas:</p>
+            <ul>
+                <li><span class="blue">width height:</span> The width and height of the content area.</li>
+                <li><span class="blue">padding:</span> The amount of space between the content area and the border.</li>
+                <li><span class="blue">border:</span>The thickness and style of the border surrounding the content area and padding.</li>
+                <li><span class="blue">margin:</span> The amount of space between the border and the outside edge of the element.</li>
+            </ul>
+            <img class="box1" src="https://raw.githubusercontent.com/Codecademy/docs/main/media/css-box-model.svg">
+            <h1 class="box">Content Area</h1>
+            <p>This area contains the actual content of an element, including text and images. It also sometimes has a 
+                background-color or background-image.</p>
+            <h1 class="box">Padding Area</h1>
+            <p>This area is located between the content and border areas. It can be changed on the top, right, 
+                bottom and left sides.</p>
+            <h1 class="box">Border Area</h1>
+            <p>This area is located between the margin and padding areas. Their thickness and 
+                style can be changed.</p>
+            <h1 class="box">Margin Area</h1>
+            <p>This is the outermost area in the Box Model. It borders with the margin areas of neighboring elements. It can be 
+                changed on the top, right, bottom and left sides.</p>
+        </div>
+        <footer id="footer">
+            <h3>Content Area</h3>
+            <h3>Padding Area</h3>
+            <h3>Border Area</h3>
+            <h3>Margin Area</h3>
+        </footer>
+    </body>
+</html>
